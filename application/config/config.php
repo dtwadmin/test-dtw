@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'https://test.dtw.com.br/';
+$config['base_url'] = 'https://test.dtecweb.com.br/';
 
 /*
 |--------------------------------------------------------------------------
