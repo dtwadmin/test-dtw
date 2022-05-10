@@ -1,0 +1,316 @@
+/*page*/
+
+h1 {
+    font-weight: 700;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+section h3.section-subheading {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Nunito','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+section h2.section-heading{
+    color: #547aa0;
+}
+
+.bg-blue{
+    background-color: #0073ac!important;
+}
+
+/*to-top*/
+.to-top {
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    right: 12px;
+    bottom: -100px;
+    padding: 9px;
+    background-color: rgba(0, 55, 82, 0.7411764705882353);
+    border: solid 1px #003752;
+    border-radius: 0;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+/*Navbar*/
+
+#mainNav .navbar-nav .nav-item .nav-link{
+    font-size: 100%;
+    font-weight: 600;
+    font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+@media (min-width: 992px){
+    #mainNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #003752;
+    }
+}
+
+.show-navbar-shrink{
+    display: none;
+}
+
+/*header*/
+
+header.masthead {
+    text-align: center;
+    color: #fff;
+    background-image: url(../images/bg/header.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header.masthead .intro-text .intro-lead-in {
+    font-style: normal;
+}
+
+/*portfolio*/
+
+section#portfolio {
+    background-image: url(../images/bg/portfolio-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+#portfolio h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+#portfolio h3.text-muted {
+    color: #ffffff!important;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(33, 37, 41, 0.9);
+}
+
+.container-info {
+    background: #f5f5f5;
+    padding: 15px;
+    margin-bottom: 50px;
+    color: #003752;
+} 
+
+/*tabs*/
+
+.nav-center {  
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+
+.nav-center ul.nav {
+    display: inline-block;
+}
+
+.nav-center ul.nav li {
+    display: inline
+}
+
+.nav-center ul.nav li a {
+    float: left;
+    margin-bottom: -9px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-center ul.nav-tabs{
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    color: #547aa0;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
+    color: #00acff;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: none;
+}
+
+#portfolio .nav-center {
+    border-bottom: none;
+}
+
+#portfolio .nav-tabs .nav-link {
+    border-radius: .25rem;
+    margin: 0 10px;
+}
+
+#portfolio .nav-tabs .nav-link {
+    border-radius: .25rem;
+    margin: 0 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    transition: all 0.4s ease-in-out;
+}
+
+#portfolio .nav-tabs .nav-item.show .nav-link, 
+#portfolio .nav-tabs .nav-link.active {
+    color: #00acff;
+}
+
+#portfolio .nav-tabs .nav-link:hover,
+#portfolio .nav-tabs .nav-link.active {
+    color: #00acff;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+/*about*/
+#about ul.qualificacoes {
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+/*Planos*/
+.justify-content-between {
+    text-align: justify;
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #0073ac;
+    border-color: #0073ac;
+}
+
+/*contato*/
+section#contact {
+    background-color: #003752;
+    background-image: url(../images/theme/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ul.social-buttons li a {
+    background-color: #003752;
+}
+
+ul.social-buttons li a:hover {
+    background-color: #00acff;
+}
+
+/*Form*/
+section#contact .form-group textarea.form-control {
+    height: 200px;
+}
+
+section#contact .form-group input, section#contact .form-group textarea {
+    padding: 12px;
+}
+
+/*owl-carousel*/
+.owl-carousel button.owl-dot {
+    background: rgb(0 170 255 / 48%);
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 5px!important;
+    margin: 5px;
+    font: inherit;
+}
+
+.owl-carousel button.owl-dot.active {
+    background: #00acff;
+}
+
+.owl-carousel-tools.owl-carousel .owl-item img {
+    width: 200px;
+    margin: auto
+}
+
+/*responsive*/
+@media(max-width: 991px){
+    #mainNav {
+        background-color: #003752;
+    }
+    #mainNav button.navbar-toggler {
+        font-size: 36px;
+        right: 0;
+        padding: 0;
+        text-transform: uppercase;
+        color: #fff;
+        border: 0;
+        background-color: transparent;
+        font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    }
+    #mainNav button:focus {
+        outline: 1px dotted;
+        outline: none;
+    }
+}
+@media(max-width: 767px){
+    a.navbar-brand img {
+        width: 190px;
+    }
+    #portfolio .nav-tabs .nav-link {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    #about .nav-tabs .nav-link {
+        width: 100%;
+        background: #fff;
+        margin: 0 0 10px;
+        border-radius: .25rem;
+        border: 1px solid #00acff;
+        color: #00acff;
+    }
+    #about .nav-tabs .nav-item.show .nav-link, 
+    #about .nav-tabs .nav-link.active {
+        color: #fff;
+        background-color: #00acff;
+        border-color: #00acff;
+    }
+    #about .nav-center {
+        border-bottom: none;
+        margin-bottom: 0px;
+    }
+    #contact a.btn {
+        padding: 20px;
+    }
+}
+
+@media(max-width: 375px){
+    #contact a.btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

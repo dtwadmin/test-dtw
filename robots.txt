@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: /
+Sitemap: https://www.dtecweb.com.br/sitemap.xml
